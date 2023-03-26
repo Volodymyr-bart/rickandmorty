@@ -1,8 +1,8 @@
 import axios from "../utils/axios";
 
-export const getApartmentList = () => {
-  return axios.get("apartaments");
+export const getPersons = () => {
+  return axios.get("/");
 };
-export const getApartmentById = (id) => {
-  return axios.get(`apartaments/:${id}`);
+export const getPersonById = (id) => {
+  return axios.get(`/:${id}`);
 };
