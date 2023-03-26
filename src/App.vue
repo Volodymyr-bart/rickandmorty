@@ -8,21 +8,6 @@
 export default {
   name: "App",
   components: {},
-  data() {
-    return {
-      persons: [],
-      filter: "",
-    };
-  },
-  async created() {
-    try {
-      // const { data } = await getApartmentList();
-      // this.apartments = data;
-      // console.log(data);
-    } catch (error) {
-      console.log(error);
-    }
-  },
 };
 </script>
 
