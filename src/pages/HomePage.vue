@@ -7,7 +7,8 @@
           :key="person.id"
           :id="person.id"
           :name="person.name"
-          :image="person.image" />
+          :image="person.image"
+          :species="person.species" />
       </template>
     </PersonsList>
   </div>
