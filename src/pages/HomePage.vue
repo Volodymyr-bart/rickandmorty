@@ -34,7 +34,6 @@ export default {
         data: { results },
       } = await getPersons();
       this.persons = results;
-      console.log(results);
     } catch (error) {
       console.log(error);
     }
