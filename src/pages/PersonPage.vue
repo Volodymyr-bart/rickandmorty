@@ -57,7 +57,25 @@ export default {
   display: flex;
   flex-direction: column;
 
-  .person-text {
+  img {
+    align-self: center;
+    width: 150px;
+    height: 150px;
+    border: 5px solid #f2f2f7;
+    border-radius: 50%;
+  }
+  h2 {
+    align-self: center;
+    margin-top: 34px;
+
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 1.19;
+
+    color: #081f32;
+    text-align: center;
+  }
+  p {
     margin-top: 35px;
 
     text-align: start;
@@ -69,7 +87,7 @@ export default {
     color: #8e8e93;
   }
 
-  .person-card-list {
+  ul {
     margin-top: 16px;
 
     display: flex;
@@ -104,42 +122,18 @@ export default {
       }
     }
   }
-
-  .person-card__photo {
-    align-self: center;
-    width: 150px;
-    height: 150px;
-    border: 5px solid #f2f2f7;
-    border-radius: 50%;
-  }
-
-  .person-title {
-    align-self: center;
-    margin-top: 34px;
-
-    font-weight: 400;
-    font-size: 32px;
-    line-height: 1.19;
-
-    color: #081f32;
-    text-align: center;
-  }
-
   @media screen and (min-width: 1200px) {
     margin: 76px auto 0;
-
-    .person-card__photo {
+    img {
       width: 300px;
       height: 300px;
     }
-
-    .person-title {
+    h2 {
       margin-top: 16px;
 
       font-size: 48px;
       line-height: 1.17;
     }
-
     p {
       margin-top: 48px;
 
